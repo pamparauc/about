@@ -10,10 +10,21 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+		    <script>
+        // Aceasta functie comuta vizibilitatea pentru elementul cu id-ul "qhhtHeader"
+        function toggleVisibility() {
+            var header = document.getElementById("structura");
+            if (header.style.display === "none") {
+                header.style.display = "block"; // Daca este ascuns, il afisam
+            } else {
+                header.style.display = "none"; // Daca este afisat, il ascundem
+            }
+        }
+    </script>
     </head>
     <body>
         <div class="d-flex" id="wrapper">
-            <!-- Sidebar-->
+                        <!-- Sidebar-->
             <div class="border-end bg-white" id="sidebar-wrapper">
                 <div class="sidebar-heading border-bottom bg-light"><img src="picture.jpg" width="191" height ="251"</></div>
                 <div class="list-group list-group-flush">
@@ -61,26 +72,17 @@
                 </nav>
                 <!-- Page content-->
                 <div class="container-fluid">
-                    <h1 class="mt-4">PhD Student & C++ Software Engineer</h1>
-                    <p>My name is Cristian Pamparău and I am a PhD Student in Computers and Information Technology. My research work focuses on applying XR technology to develop new applications that
-						enhance users' sensosy abilities, such as better vision, and cognitive abilities, such as improved memory performance. For details regarding my research, please visit <a href="publications.html"> my publications/peer reviewing sections.</a></p>
-						<p>In the same time, I am a C++ Software Engineer at Antaco Romania. For details regarding industry experience, you can check <a href="cv.pdf"> my CV, digital skills section.</a> </p>
-						<p>I am also a Teaching Assistant at Ștefan cel Mare University of Suceava, Faculty of Electrical Engineering and Computer Science, Department of Computer Science 
-						where I am doing laboratory teaching activities for <b>Object Oriented Programming </b> (Fall Semester - C++ programming language), <b> Computer Programming and Programming Languages II </b> (Spring Semester - C/Python programming language), and <b>Real-Time Interaction With the Virtual
-Environment </b> (Spring Semester), respectively.   </p>
-                    <!--<p>
-                        Make sure to keep all page content within the
-                        <code>#page-content-wrapper</code>
-                        . The top navbar is optional, and just for demonstration. Just create an element with the
-                        <code>#sidebarToggle</code>
-                        ID which will toggle the menu when clicked.
-                    </p>-->
-                </div>
+                    <h1 class="mt-4">Pagină în construcție</h1>
+                    
+				</div>
             </div>
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+		<footer>
+        <p>Pentru mai multe informații sau pentru a programa o sesiune, vă rugăm să scrieti un email la sesiuniqhht@gmail.com</p>
+    </footer>
     </body>
 </html>
